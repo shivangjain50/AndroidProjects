@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        app:cardUseCompatPadding="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_row">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/race"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/race"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race1"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_name"
+                android:text="Race Organizer"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_organizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/race2"
+                android:layout_below="@id/race_name"
+
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race2"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_organizer"
+                android:text="Race Guntime"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_guntime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/race2"
+                android:layout_below="@id/race_organizer"
+
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race3"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_guntime"
+                android:text="Total Laps"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_laps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_guntime"
+                android:layout_toRightOf="@id/race3"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race4"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_laps"
+                android:text="Race Type"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_laps"
+
+                android:layout_toRightOf="@id/race4"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race5"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_type"
+                android:text="Race Organizer"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_tdistance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_type"
+                android:layout_toRightOf="@id/race5"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race6"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_tdistance"
+                android:text="Race Associated"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/race_associated"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/race_tdistance"
+
+                android:layout_toRightOf="@id/race6"
+                android:text="Race Name"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/btn_edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/btn_delete"
+                android:layout_marginLeft="100dp"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:text="Edit" />
+
+            <ImageView
+                android:id="@+id/btn_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/race6"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/btn_edit"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:text="Edit"
+                 />
+
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
